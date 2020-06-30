@@ -7,11 +7,15 @@ All required packages are in the [requirements.txt](https://github.com/michaelar
 I came across this dataset on Kaggle and it had a lot of information. A lot of questions
 could be answered from this dataset so I wanted to see what I can discover from it. I also
 wanted to try GeoSpatial Analysis and Geoplotting.
-For this project, I wanted to discover:
-1. Which States have the most accidents? Which Cities have the most accidents?
-2. The distribution of when accidents happen throughtout the day
-3. Does weather affect the severity of an accident?
-4. Can we predict where an accident will occur without training any locational data?
+## From a Business Perspective
+From a business perspective it would be very informative to know where most accidents occur and if there is a pattern and when the accidents occur most. A business that would find this informative would be towing companies because they would be able to increase their response rate and minimize time to the accidents if they know where most of them occur per state.
+
+There is a lot to analyze with this dataset. Some questions can be:
+
+1. Which States has the most accidents? This would help us know how to distribute the amount of tow trucks
+2. What time do most accidents occur? More workers should be available during those times
+3. What affects the severity of the accident? We would be able to minimize the number of severe accidents if we know the factors contributing to them.
+4. Can we predict an accident? This could help tow truckers anticipate a job coming.
 
 ## File Descriptions
 There are 3 notebooks available. 
@@ -24,7 +28,15 @@ classifying and predicting where the accident occurs. Sadly I did not have enoug
 I was able to get the feature importance.
 
 ## Findings
-Findings can be found in this [medium post](https://medium.com/@michaelarman/this-might-make-you-think-twice-about-driving-in-certain-circumstances-in-the-u-s-9fc6d625c346)
+Some of the findings can be found in this [medium post](https://medium.com/@michaelarman/this-might-make-you-think-twice-about-driving-in-certain-circumstances-in-the-u-s-9fc6d625c346)
+
+### Evaluation and Results
+
+- Which state has the most accidents? California - perhaps that suggests more tow truckers are needed in that state
+- What time do most accidents occur? Differs per state but accidents happen most before and after work hours (6-8am & 3-6pm)
+- What affects the severity of the accident? Duration, and Weather Condition
+- Can we predict an accident? This is included in the Classification Model notebook
+- Can we predict the severity of an accident? This is included in the BERT notebook
 
 ## References
 The Dataset:
